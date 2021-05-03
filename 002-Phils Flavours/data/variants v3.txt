@@ -1790,7 +1790,7 @@ ship "Mule" "Mule A"
 		"Heavy Anti-Missile Turret"
 		"Assault Rifle ZX-411" 20
 		"Tactical Military Outfit" 5
-		"Particle Cannon Turret" 3
+		"Particle Cannon Turret" 2
 		"Body Armor" 10
 ship "Mule" "Mule B"
 	outfits
@@ -1806,7 +1806,7 @@ ship "Mule" "Mule B"
 		"Assault Rifle ZX-411" 30
 		"Tactical Military Outfit" 5
 		"Long Range Laser" 2
-		"Long Range Laser Turret" 3
+		"Long Range Laser Turret" 2
 		"Body Armor" 10
 ship "Osprey" "Osprey A"
 	outfits
@@ -2924,7 +2924,7 @@ ship "Light Dart" "Light Dart C"
 		"Small Radar Jammer"
 		"Heavy Laser" 2
 		"Laser Rifle" 10
-ship "Gargoyle A"
+ship "Gargoyle" "Gargoyle A"
 	outfits
 		Hyperdrive
 		"A250 Atomic Thruster"
@@ -2938,7 +2938,7 @@ ship "Gargoyle A"
 		"Small Radar Jammer"
 		"D67-TM Shield Generator"
 		"Particle Cannon Turret" 4
-ship "Gargoyle B"
+ship "Gargoyle" "Gargoyle B"
 	outfits
 		Hyperdrive
 		"X3700 Ion Thruster"
@@ -2950,7 +2950,7 @@ ship "Gargoyle B"
 		"D41-HY Shield Generator"
 		"Cooling Ducts"
 		"LP072a Battery Pack"
-ship "Gargoyle C"
+ship "Gargoyle" "Gargoyle C"
 	outfits
 		Hyperdrive
 		"X3700 Ion Thruster"
@@ -2961,59 +2961,57 @@ ship "Gargoyle C"
 		"D14-RN Shield Generator"
 		"Long Range Laser Turret" 4
 		"Long Range Laser" 2
-ship "Hauler IV A"
+ship "Hauler IV" "Hauler IV A"
 	outfits
 		Hyperdrive
 		"X3700 Ion Thruster"
-		"Impala Plasma Steering"
-		"Heavy Laser Turret" 4
+		"Greyhound Plasma Steering"
+		"Heavy Laser Turret" 2
 		"Meteor Missile Launcher" 2
 		"S3 Thermionic"
 		"D41-HY Shield Generator"
 		"Small Radar Jammer"
 		"LP072a Battery Pack"
-ship "Hauler IV B"
+ship "Hauler IV" "Hauler IV B"
 	outfits
 		Hyperdrive
 		"A250 Atomic Thruster"
-		"A125 Atomic Steering"
 		"A375 Atomic Steering"
 		"NT-200 Nucleovoltaic"
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 100
+		"Sidewinder Missile Launcher"
+		"Sidewinder Missile" 45
 		"D23-QP Shield Generator"
 		"Small Radar Jammer"
 		"LP072a Battery Pack"
-		"Long Range Laser Turret" 4
-ship "Hauler IV C"
+		"Long Range Laser Turret" 2
+ship "Hauler IV" "Hauler IV C"
 	outfits
 		Hyperdrive
 		"X3700 Ion Thruster"
-		"Impala Plasma Steering"
-		"Sidewinder Missile Launcher" 2
+		"Greyhound Plasma Steering"
+		"Sidewinder Missile Launcher" 1
 		"S3 Thermionic"
-		"Sidewinder Missile" 100
+		"Sidewinder Missile" 45
 		"D41-HY Shield Generator"
 		"Small Radar Jammer" 2
 		"Heavy Anti-Missile Turret"
 		"LP072a Battery Pack"
-		"Particle Cannon Turret" 3
-ship "Hauler VI A"
+		"Particle Cannon Turret" 2
+ship "Hauler VI" "Hauler VI A"
 	outfits
 		Hyperdrive
 		"X3700 Ion Thruster"
-		"Impala Plasma Steering"
+		"Greyhound Plasma Steering"
 		"S3 Thermionic"
 		"D41-HY Shield Generator"
 		"Small Radar Jammer"
 		"LP072a Battery Pack"
-		"Long Range Laser Turret" 4
+		"Long Range Laser Turret" 2
 		"Long Range Laser" 2
-ship "Hauler VI B"
+ship "Hauler VI" "Hauler VI B"
 	outfits
 		Hyperdrive
 		"A250 Atomic Thruster"
-		"A125 Atomic Steering"
 		"A375 Atomic Steering"
 		"Mass Expansion" 2
 		"Meteor Missile Launcher" 2
@@ -3023,16 +3021,16 @@ ship "Hauler VI B"
 		"Water Coolant System"
 		"LP072a Battery Pack"
 		"LP036a Battery Pack"
-		"Particle Cannon Turret" 4
-ship "Hauler VI C"
+		"Particle Cannon Turret" 2
+ship "Hauler VI" "Hauler VI C"
 	outfits
 		Hyperdrive
 		"X3700 Ion Thruster"
-		"Impala Plasma Steering"
-		"Heavy Laser Turret" 3
-		"Sidewinder Missile Launcher" 2
+		"Greyhound Plasma Steering"
+		"Heavy Laser Turret" 2
+		"Sidewinder Missile Launcher"
 		"S3 Thermionic"
-		"Sidewinder Missile" 100
+		"Sidewinder Missile" 45
 		"D41-HY Shield Generator"
 		"Small Radar Jammer"
 		"Heavy Anti-Missile Turret"

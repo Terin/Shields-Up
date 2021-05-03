@@ -4,7 +4,6 @@ outfitter "SU Extras"
 	"Incinerator Beam"
 	
 shipyard "SU Extras"
-	" Phoenix "
 	"Kestrel-M"
 	"Bactrian T2"
 	"Dragoon"

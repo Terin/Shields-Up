@@ -328,7 +328,7 @@ ship "Spearhead"
 	explode "medium explosion" 24
 	explode "big explosion" 8
 	description "A heavily modified version of the Splinter. By pirates, for pirates. This version sacrifices cargo space for more outfit space. It is designed to be a moderately armed medium command ship."
-    description "A relic of the past, it is only used by the poorest of pirate captains."
+	description "A relic of the past, it is only used by the poorest of pirate captains."
 
 ship "Stealth Cruiser"
 	sprite "ship/osprey"

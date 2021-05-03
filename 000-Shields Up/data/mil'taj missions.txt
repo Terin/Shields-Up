@@ -38,10 +38,11 @@ mission "Mil'taj: First Contact"
 			`	"They were once a prosperous peoples, but they made the mistake of believing that they could defeat us, the Quarg, and as such, since we have no mission to protect them, we demolished them. Few are still alive today."`
 			choice
 				`	"What do you mean that you have no mission to protect them?"`
+					goto protect
 				`	"Thank you for your time."`
-					decline`
+					decline
 			
-			label
+			label protect
 			`	"The Mil'taj are not of this galaxy. They come from another, far from here, only in this galaxy due to a wormhole that appeared long ago. The Quarg only defend species of this galaxy and do not care for the species of others, especially not those who wish to destroy us."`
 			`	You thank it for its time, and the crowd of Quarg that has been gawking at your ship slowly disperses.`
 				decline

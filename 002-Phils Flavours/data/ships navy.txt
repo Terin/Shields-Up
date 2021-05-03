@@ -5,11 +5,11 @@ shipyard "Navy Advanced"
 
 ship "Alliance Battleship"
 	sprite "ship/alliance battleship"
-	licenses
-		Navy
-		Battleship
 	attributes
 		category "Heavy Warship"
+		licenses
+			Navy
+			Battleship
 		"cost" 22000000
 		"shields" 32500
 		"hull" 13500
@@ -68,10 +68,10 @@ ship "Alliance Battleship"
 
 ship "Gunboat GXV2"
 	sprite "ship/gunboat gxv2"
-	licenses
-		Navy
 	attributes
 		category "Light Warship"
+		licenses
+			Navy
 		"cost" 3600000
 		"shields" 5800
 		"hull" 1400
@@ -120,10 +120,10 @@ ship "Gunboat GXV2"
 
 ship "Destroyer"
 	sprite "ship/destroyer"
-	licenses
-		Navy
 	attributes
 		category "Medium Warship"
+		licenses
+			Navy
 		"cost" 8200000
 		"shields" 13800
 		"hull" 4500
@@ -193,7 +193,7 @@ ship "Destroyer" "Destroyer A"
 		"Water Coolant System"
 		"Tactical Military Outfit" 40
 		"Particle Cannon Turret" 3
-		"Tactical Body Armor" 40
+		#"Tactical Body Armor" 40
 ship "Destroyer" "Destroyer (Mark II)"
 	outfits
 		"Hyperdrive"
@@ -210,7 +210,7 @@ ship "Destroyer" "Destroyer (Mark II)"
 		"Water Coolant System"
 		"Assault Rifle ZX-411" 20
 		"Tactical Military Outfit" 40
-		"Tactical Body Armor" 20
+		#"Tactical Body Armor" 20
 ship "Gunboat GXV2" "Gunboat GXV2 A"
 	outfits
 		"X2700 Ion Thruster"

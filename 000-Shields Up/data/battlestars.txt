@@ -38,10 +38,10 @@ ship "Battlestar"
 	sprite "ship/battlestar/battlestar"
 		"frame rate" 12
 		"rewind"
-	licenses
-		"Plenipotent"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Plenipotent"
 		"cost" 500000000
 		"shields" 800000
 		"hull" 400000
@@ -90,46 +90,46 @@ ship "Battlestar"
 	turret -236 -227
 	turret 241.5 -138.5
 	turret -73.5 231.5
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
-	drone 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
 	explode "big explosion" 50
 	explode "huge explosion" 50
 	explode "nuke explosion" 50

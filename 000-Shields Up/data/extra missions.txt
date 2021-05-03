@@ -13,8 +13,7 @@ mission "Colonizing Sanctus Part 1"
 	description "The pirate ship <npc> has been raiding the Teshana system, and some drunk guy asked you to remove it before piracy in that sector gets out of control. Destroy it and any other pirate vessels, then return to <planet> for your alleged payment."
 	job
 	landing
-	source
-		Valhalla
+	source Valhalla
 	to offer
 		has "main plot completed"
 		"reputation: Deep Sky" > 10
@@ -154,7 +153,7 @@ mission "Colonizing Sanctus Part 2"
 	npc
 		government Pirate (North)
 		personality plunders
-		system Alegieba
+		system Algieba
 		fleet "Small Northern Pirates"
 
 	npc

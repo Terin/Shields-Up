@@ -139,10 +139,10 @@ ship "Albacore"
 ship "Gourami"
 	sprite "ship/gourami"
 	plural "Gouramie"
-	licenses
-		"Servorum"
 	attributes
 		category "Medium Warship"
+		licenses
+			"Servorum"
 		"cost" 8000000
 		"shields" 13600
 		"hull" 6300
@@ -197,10 +197,10 @@ ship "Gourami"
 
 ship "Cisco"
 	sprite "ship/cisco"
-	licenses
-		"Servorum"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Servorum"
 		"cost" 17500000
 		"shields" 28400
 		"hull" 14500

@@ -45,11 +45,11 @@ outfit "Heat Strike"
 		"reload" 10
 		"firing energy" 5
 		"heat damage" 5
-        
+		
 ship "Spacebot" "Nano EMP"
-    outfits
-        "EMP Strike"
-        
+	outfits
+		"EMP Strike"
+		
 outfit "EMP Strike"
 	category "Guns"
 	thumbnail "outfit/unknown"
@@ -66,22 +66,22 @@ outfit "EMP Strike"
 		"reload" 10
 		"firing energy" 5
 		"ion damage" 5
-        
+		
 fleet "Heat Nanos"
-    government "Space"
-    personality
-        heroic
-        vindictive
-    variant
-        "Nano Heat" 20
-        
+	government "Space"
+	personality
+		heroic
+		vindictive
+	variant
+		"Nano Heat" 20
+		
 fleet "EMP Nanos"
-    government "Space"
-    personality
-        heroic
-        vindictive
-    variant
-        "Nano EMP" 20
-        
+	government "Space"
+	personality
+		heroic
+		vindictive
+	variant
+		"Nano EMP" 20
+		
 government "Space"
-    "player reputation" -1000
+	"player reputation" -1000

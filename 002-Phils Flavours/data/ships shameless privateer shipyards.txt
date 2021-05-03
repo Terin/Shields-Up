@@ -130,8 +130,8 @@ ship "The Pilfered Keg"
 
 	engine -11.5 79.5
 	engine 11.5 79.5
-	turret -10.5 -34 "Heavy Laser"
-	turret 10.5 -34 "Heavy Laser"
+	turret -10.5 -34 "Heavy Laser Turret"
+	turret 10.5 -34 "Heavy Anti-Missile Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	explode "medium explosion" 5

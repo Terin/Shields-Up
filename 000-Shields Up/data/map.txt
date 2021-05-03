@@ -4769,6 +4769,9 @@ planet Elora
 	bribe 0
 	security 0
 
+planet "Entrance to Sentar"
+	description ""
+
 planet "Epica Citadel"
 	attributes dominion
 	landscape land/water6
@@ -4872,7 +4875,7 @@ planet Ilfesorim
 	security 0
 
 planet "Kor Enlai"
-	landscape ""
+	#landscape ""
 
 planet Kullat
 	attributes servorum
@@ -5223,6 +5226,9 @@ planet "Wayshrine Station"
 	"required reputation" 2
 	bribe 0.2
 	security 0.2
+
+planet "Wormhole Mil'taj"
+	description ""
 
 planet Ztewgf
 	attributes erufiam

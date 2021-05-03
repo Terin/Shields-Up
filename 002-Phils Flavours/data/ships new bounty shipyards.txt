@@ -255,8 +255,8 @@ ship Quebracho
 	gun 27 -89 "Heavy Laser"
 	turret -15 -54.5 "Heavy Laser Turret"
 	turret 15 -54.5 "Heavy Laser Turret"
-	turret -30 77.5 "Heavy Laser Turret"
-	turret 30 77.5 "Heavy Laser Turret"
+	turret -30 77.5 "Heavy Anti-Missile Turret"
+	turret 30 77.5 "Heavy Anti-Missile Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 40
 	explode "medium explosion" 30

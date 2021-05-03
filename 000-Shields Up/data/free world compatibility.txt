@@ -30,21 +30,21 @@ event "shields up hostilities start"
 
 
 mission "SU ceasefire check"
-    landing
+	landing
 	invisible
-    to offer
-        has "event: temporary cease fire"
-    on offer
-        event "shields up temporary cease fire"
-        fail
+	to offer
+		has "event: temporary cease fire"
+	on offer
+		event "shields up temporary cease fire"
+		fail
 
-event "shields up tempoarary cease fire"
-    government "Free Worlds"
-        "attitude toward"
-            "Deep Sky" 0
-    government "Deep Sky"
-        "attitude toward"
-            "Free Worlds" 0
+event "shields up temporary cease fire"
+	government "Free Worlds"
+		"attitude toward"
+			"Deep Sky" 0
+	government "Deep Sky"
+		"attitude toward"
+			"Free Worlds" 0
 
 
 
@@ -110,7 +110,7 @@ mission "SU syndicate war check"
 	to offer
 		has "event: fw at war with Syndicate"
 	on offer
-		event "shields up syndicate war"
+		event "shields up hostilities start"
 		fail
 
 event "shields up hostilities start"
@@ -171,16 +171,16 @@ event "shields up at war with the pug"
 
 
 
-mission "SU fwc peace with the navy"
+mission "SU fw peace with the navy"
 	landing
 	invisible
 	to offer
 		has "event: fw armistice"
 	on offer
-		event "shields up fwc peace with the navy"
+		event "shields up fw peace with the navy"
 		fail
 
-event "shields up fwc peace with the navy"
+event "shields up fw peace with the navy"
 	"reputation: Deep Sky" = 1
 	government "Free Worlds"
 		"attitude toward"

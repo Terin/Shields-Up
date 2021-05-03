@@ -9,8 +9,9 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ship "Bactrian"
-	licenses
-		"Deep Sky"
+	attributes
+		licenses
+			"Deep Sky"
 
 ship "Skybus"
 	plural "Skybuses"
@@ -485,10 +486,10 @@ ship "Archangel"
 
 ship "Legionnaire"
 	sprite ship/Legionaire
-	licenses
-		"Deep Sky"
 	attributes
 		category "Medium Warship"
+		licenses
+			"Deep Sky"
 		"cost" 6870000
 		"shields" 6500
 		"hull" 5300
@@ -756,18 +757,18 @@ ship "Samurai"
 
 	engine -29 156
 	engine 29 156
-	gun -56 -98 "Ion Cannon"
-	gun 56 -98 "Ion Cannon"
-	gun -44 -84 "Ion Cannon"
-	gun 44 -84 "Ion Cannon"
+	gun -56 -98 "EMP Bomb Launcher"
+	gun 56 -98 "EMP Bomb Launcher"
+	gun -44 -84
+	gun 44 -84
 	gun -18 -142 "Typhoon Launcher"
 	gun -18 -142 "Typhoon Launcher"
-	gun 18 -142 "Typhoon Launcher"
-	gun 18 -142 "Typhoon Launcher"
-	turret -100 -3 "Plasma Turret"
-	turret 100 -3 "Plasma Turret"
-	turret -100 71 "Plasma Turret"
-	turret 100 71 "Plasma Turret"
+	gun 18 -142
+	gun 18 -142
+	turret -100 -3 "Electron Turret"
+	turret 100 -3 "Electron Turret"
+	turret -100 71 "Electron Turret"
+	turret 100 71 "Electron Turret"
 	turret -53 34 "Heavy Anti-Missile Turret"
 	turret 53 34 "Heavy Anti-Missile Turret"
 	fighter -30 -44 
@@ -812,7 +813,7 @@ ship "FTek Destroyer"
 		"Heavy Laser" 2
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 70
-		"Heavy Laser Turret"
+		"FTek Active Blaster Turret"
 		"Heavy Anti-Missile Turret" 2
 
 		"Fission Reactor"
@@ -929,60 +930,60 @@ ship "FTek Girl Scout"
 	description "The girl scout delivery service has finally reached into space. And they're not bringing cookies this time."
 	description "Remember, FTek builds murder weapons, so you don't have to!™"
 
-ship "Star Destroyer"
-	sprite "ship/Star Destroyer"
-	attributes
-		category "Heavy Warship"
-		"cost" 8000000
-		"shields" 20000
-		"hull" 7000
-		"required crew" 50
-		"bunks" 370
-		"mass" 1600
-		"drag" 11
-		"heat dissipation" .65
-		"fuel capacity" 800
-		"cargo space" 60
-		"outfit space" 1000
-		"weapon capacity" 200
-		"engine capacity" 200
-		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
-	outfits
-		"Turbo Laser Turret" 3
-		"Light Turbo Laser Turret" 3
-		"Heavy Anti-Missile Turret"
-
-		"Fusion Reactor" 2
-		"LP288a Battery Pack" 3
-		"Liquid Helium Cooler" 2
-		"Catalytic Ramscoop"
-		"Star Destroyer Shield Generator" 2
-
-		"X4700 Ion Thruster"
-		"X5200 Ion Steering"
-		"Hyperdrive"
-
-	engine -39 112.5
-	engine 39 112.5
-	turret -41 44.5 "Turbo Laser Turret"
-	turret 41 44.5 "Light Turbo Laser Turret"
-	turret -46 57.5 "Light Turbo Laser Turret"
-	turret 46 57.5 "Turbo Laser Turret"
-	turret -51 71.5 "Turbo Laser Turret"
-	turret 51 71.5 "Light Turbo Laser Turret"
-	turret 0 25.5 "Heavy Anti-Missile Turret"
-	fighter 0 20
-	fighter 0 20
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "big explosion" 40
-	explode "huge explosion" 10
-	description "I'm sorry, do you actually need someone to tell you what this is?"
+#ship "Star Destroyer"
+#	sprite "ship/Star Destroyer"
+#	attributes
+#		category "Heavy Warship"
+#		"cost" 8000000
+#		"shields" 20000
+#		"hull" 7000
+#		"required crew" 50
+#		"bunks" 370
+#		"mass" 1600
+#		"drag" 11
+#		"heat dissipation" .65
+#		"fuel capacity" 800
+#		"cargo space" 60
+#		"outfit space" 1000
+#		"weapon capacity" 200
+#		"engine capacity" 200
+#		weapon
+#			"blast radius" 260
+#			"shield damage" 2600
+#			"hull damage" 1300
+#			"hit force" 3900
+#	outfits
+#		"Turbo Laser Turret" 3
+#		"Light Turbo Laser Turret" 3
+#		"Heavy Anti-Missile Turret"
+#
+#		"Fusion Reactor" 2
+#		"LP288a Battery Pack" 3
+#		"Liquid Helium Cooler" 2
+#		"Catalytic Ramscoop"
+#		"Star Destroyer Shield Generator" 2
+#
+#		"X4700 Ion Thruster"
+#		"X5200 Ion Steering"
+#		"Hyperdrive"
+#
+#	engine -39 112.5
+#	engine 39 112.5
+#	turret -41 44.5 "Turbo Laser Turret"
+#	turret 41 44.5 "Light Turbo Laser Turret"
+#	turret -46 57.5 "Light Turbo Laser Turret"
+#	turret 46 57.5 "Turbo Laser Turret"
+#	turret -51 71.5 "Turbo Laser Turret"
+#	turret 51 71.5 "Light Turbo Laser Turret"
+#	turret 0 25.5 "Heavy Anti-Missile Turret"
+#	fighter 0 20
+#	fighter 0 20
+#	explode "tiny explosion" 20
+#	explode "small explosion" 45
+#	explode "medium explosion" 50
+#	explode "big explosion" 40
+#	explode "huge explosion" 10
+#	description "I'm sorry, do you actually need someone to tell you what this is?"
 
 ship "Hunter Drone"
 	sprite "ship/hunter drone"
@@ -997,7 +998,7 @@ ship "Hunter Drone"
 		"outfit space" 95
 		"weapon capacity" 28
 		"engine capacity" 30
-        automaton 1
+		automaton 1
 		weapon
 			"blast radius" 8
 			"shield damage" 80
@@ -1125,11 +1126,11 @@ ship "Modified Firebird"
 	description "The Modified Firebird is a crazy invention from the pirate inhabitants of the Far North. Reconfigured to become a combat freighter, the Modified Firebird has less guns than its original version but has far bigger engines and boasts plenty of cargo space to be converted into outfit space."
 
 ship "Kriegsmacher"
-	licenses
-		"Destroyer of Worlds"
 	sprite "ship/Kriegsmacher" #Thanks, Matthew Smestad!
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Destroyer of Worlds"
 		"cost" 125200000
 		"shields" 71200
 		"hull" 20200
@@ -1286,11 +1287,11 @@ ship "Gnosis Transport"
 	
 ship "Capitalis Viatoris"
 	plural "Capitalis Viatores"
-	licenses
-		"Tarazed"
 	sprite "ship/capitalis viatoris"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Tarazed"
 		"cost" 65200000
 		"shields" 61200
 		"hull" 13900
@@ -1421,7 +1422,7 @@ ship "Megaship MMMXV"
 		"fuel capacity" 100
 		"cargo space" 10
 		"outfit space" 200
-        "megaship capacity" 5000
+		"megaship capacity" 5000
 		"identification" -1
 		weapon
 			"blast radius" 700
@@ -1446,28 +1447,28 @@ ship "Megaship MMMXV"
 	explode "medium explosion" 50
 	explode "big explosion" 70
 	explode "huge explosion" 25
-    description "Megaship. Not buyable yet."
-    
+	description "Megaship. Not buyable yet."
+	
 ship "Auto-Scout"
-    sprite "ship/surveillance drone"
-    attributes
-        category "Interceptor"
-        cost 500000
-        automaton 1
-        shields 1250
-        hull 500
-        mass 10
-        drag 0.43
-        "heat dissipation" 0.75
-        "fuel capacity" 2000
-        turn 240
-        thrust 1.5
-        "outfit space" 8
-        "weapon  capacity" 8
-        "energy generation" 5
-        "shield generation" 0.15
-        "shield energy" 0.3
-    outfits
-        "Beam Laser"
-    gun 0 0
-    description "An automated scout armed with a basic beam laser."
+	sprite "ship/surveillance drone"
+	attributes
+		category "Interceptor"
+		cost 500000
+		automaton 1
+		shields 1250
+		hull 500
+		mass 10
+		drag 0.43
+		"heat dissipation" 0.75
+		"fuel capacity" 2000
+		turn 240
+		thrust 1.5
+		"outfit space" 8
+		"weapon capacity" 8
+		"energy generation" 5
+		"shield generation" 0.15
+		"shield energy" 0.3
+	outfits
+		"Beam Laser"
+	gun 0 0
+	description "An automated scout armed with a basic beam laser."

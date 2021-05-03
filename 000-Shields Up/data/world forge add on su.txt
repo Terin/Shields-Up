@@ -68,7 +68,7 @@ outfitter "SU Servorum"
 	"Overdrive Virgo Thruster"
 	"Overdrive Virgo Steering"
 
-outfitter "SU Others"
+#outfitter "SU Others"
 	"Star Destroyer Shield Generator"
 
 shipyard "SU Human"
@@ -113,37 +113,34 @@ shipyard "SU Servorum"
 	"Arowana"
 	"Cisco"
 	"Catla"
-
-shipyard "SU Others"
-	"Star Destroyer"
 	
 planet Mods
 	outfitter "SU Human"
 	outfitter "SU Mil'taj"
 	outfitter "SU Servorum"
-	outfitter "SU Others"
+	#outfitter "SU Others"
 	shipyard "SU Human"
 	shipyard "SU Mil'taj"
 	shipyard "SU Dominion"
 	shipyard "SU Servorum"
-	shipyard "SU Others"
+	#shipyard "SU Others"
 
 planet Forge
 	outfitter "SU Human"
 	outfitter "SU Mil'taj"
 	outfitter "SU Servorum"
-	outfitter "SU Others"
+	#outfitter "SU Others"
 	shipyard "SU Human"
 	shipyard "SU Mil'taj"
 	shipyard "SU Dominion"
 	shipyard "SU Servorum"
-	shipyard "SU Others"
+	#shipyard "SU Others"
 	
 planet Human
 	outfitter "SU Human"
-	outfitter "SU Others"
+	#outfitter "SU Others"
 	shipyard "SU Human"
-	shipyard "SU Others"
+	#shipyard "SU Others"
 
 mission "Add Plenipotent License License"
 	repeat

@@ -32,7 +32,7 @@ ship Falcon "Falcon (Heavy Surveillance)"
 		"Laser Rifle" 75
 		"Hyperdrive"
 		"Armageddon Core"
-		"Penum Surveillance Pod"
+		"Surveillance Pod"
 		"D94-YV Shield Generator"
 		"Quad Blaster Turret" 2
 		"Cooling Ducts" 2
@@ -40,9 +40,9 @@ ship Falcon "Falcon (Heavy Surveillance)"
 		"Mass Expansion" 4
 		"Intelligent Rocket Launcher" 4
 		"Intelligent Rocket" 80
-		"Jipach Model Android" 12
-		"Bot Racks"
-		"Engineer AI Card" 12
+		#"Jipach Model Android" 12
+		#"Bot Racks"
+		#"Engineer AI Card" 12
 	gun "Intelligent Rocket Launcher"
 	gun "Intelligent Rocket Launcher"
 	gun "Intelligent Rocket Launcher"
@@ -60,7 +60,7 @@ ship Falcon "Falcon (Surveillance)"
 		"Liquid Helium Cooler"
 		"Hyperdrive"
 		"Armageddon Core"
-		"Penum Surveillance Pod"
+		"Surveillance Pod"
 		"D94-YV Shield Generator"
 		"Quad Blaster Turret" 2
 		"Heavy Anti-Missile Turret" 2
@@ -86,7 +86,7 @@ ship "Aerie (Drone)" "Aerie (Drone)(Surveillance)"
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
 		"Hyperdrive"
-		"Penum Surveillance Pod"
+		"Surveillance Pod"
 	gun "Heavy Laser"
 	gun "Heavy Laser"
 	turret "Heavy Laser Turret"
@@ -96,47 +96,47 @@ ship "Aerie (Drone)" "Aerie (Drone)(Surveillance)"
 ship "Hunter Drone" "Hunter Drone (Stock)"
 	outfits
 		"Sidewinder Missile Launcher"
-		"Sidewinder Missile" 50
-		"nGVF-BB Fuel Cell"
+		"Sidewinder Missile" 45
+		"nGVF-AA Fuel Cell"
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
 	gun "Sidewinder Missile Launcher"
 	
 ship "Hunter Drone" "Hunter Drone (Meteor)"
 	outfits
 		"Meteor Missile Launcher"
 		"Meteor Missile" 35
-		"nGVF-BB Fuel Cell"
+		"nGVF-AA Fuel Cell"
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
 	gun "Meteor Missile Launcher"
 	
 ship "Hunter Drone" "Hunter Drone (Stock Surveillance)"
 	outfits
 		"Sidewinder Missile Launcher"
 		"Sidewinder Missile" 50
-		"nGVF-BB Fuel Cell"
+		"nGVF-AA Fuel Cell"
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Penum Surveillance Pod"
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		"Surveillance Pod"
 	gun "Sidewinder Missile Launcher"
 	
 ship "Hunter Drone" "Hunter Drone (Meteor Surveillance)"
 	outfits
 		"Meteor Missile Launcher"
 		"Meteor Missile" 35
-		"nGVF-BB Fuel Cell"
+		"nGVF-AA Fuel Cell"
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Penum Surveillance Pod"
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		"Surveillance Pod"
 	gun "Meteor Missile Launcher"
 
 ship "Modified Firebird" "Mod Firebird (Stock)"
@@ -147,7 +147,7 @@ ship "Modified Firebird" "Mod Firebird (Stock)"
 		"nGVF-AA Fuel Cell"
 		"LP144a Battery Pack"
 		"D41-HY Shield Generator"
-		"X4700 Ion Thruster"
+		"X3700 Ion Thruster"
 		"X4200 Ion Steering"
 		"Hyperdrive"	
 	gun "Intelligent Rocket Launcher"
@@ -239,7 +239,7 @@ ship Protector "Protector (Jump)"
 
 ship "Horn" "Horn (Stock)"
 	outfits
-		"Union Blaster" 2
+		"Fed Blaster" 2
 		"Horn Flamethrower" 2
 		"PR-600 Reactor"
 		"AR-S Fuelscoop"
@@ -247,14 +247,14 @@ ship "Horn" "Horn (Stock)"
 		"SF-1 Horn Regenerator"
 		"AP-7 Argentum Thruster"
 		"AP-6 Aurum Steering"
-	gun "Union Blaster"
-	gun "Union Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
 	gun "Horn Flamethrower"
 	gun "Horn Flamethrower"
 	
 ship "Thorn" "Thorn (Stock)"
 	outfits
-		"Union Blaster" 6
+		"Fed Blaster" 6
 		"Khorne Rocket Turret" 3
 		"Khorne Rocket" 120
 		"Heavy Anti-Missile Turret"
@@ -267,12 +267,12 @@ ship "Thorn" "Thorn (Stock)"
 		"HEAP-900 Vacuum Drive"
 		"HEAP-800 Breacher Steering"
 		"Hyperdrive"
-	gun "Union Blaster"
-	gun "Union Blaster"
-	gun "Union Blaster"
-	gun "Union Blaster"
-	gun "Union Blaster"
-	gun "Union Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
 	turret "Khorne Rocket Turret"
 	turret "Khorne Rocket Turret"
 	turret "Khorne Rocket Turret"
@@ -280,21 +280,21 @@ ship "Thorn" "Thorn (Stock)"
 
 ship "Horn" "Horn" (Blaster)"
 	outfits
-		"Union Blaster" 4
+		"Fed Blaster" 4
 		"PR-600 Reactor"
 		"AR-S Fuelscoop"
 		"JU-F40 Horn Battery Pack"
 		"SF-1 Horn Regenerator"
 		"AP-7 Argentum Thruster"
 		"AP-6 Aurum Steering"
-	gun "Union Blaster"
-	gun "Union Blaster"
-	gun "Union Blaster"
-	gun "Union Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
 	
 ship "Thorn" "Thorn" (Heavy)"
 	outfits
-		"Union Blaster" 2
+		"Fed Blaster" 2
 		"Meteor Missile Launcher" 4
 		"Meteor Missile" 140
 		"Heavy Laser Turret" 3
@@ -313,8 +313,8 @@ ship "Thorn" "Thorn" (Heavy)"
 	gun "Meteor Missile Launcher"
 	gun "Meteor Missile Launcher"
 	gun "Meteor Missile Launcher"
-	gun "Union Blaster"
-	gun "Union Blaster"
+	gun "Fed Blaster"
+	gun "Fed Blaster"
 	turret "Heavy Laser Turret"
 	turret "Heavy Laser Turret"
 	turret "Heavy Laser Turret"
@@ -356,7 +356,7 @@ ship "Modified Firebird" "Mod Firebird (Thrower)"
 		"nGVF-AA Fuel Cell"
 		"LP144a Battery Pack"
 		"D41-HY Shield Generator"
-		"X4700 Ion Thruster"
+		"X3700 Ion Thruster"
 		"X4200 Ion Steering"
 		"Hyperdrive"
 	gun "Horn Flamethrower"

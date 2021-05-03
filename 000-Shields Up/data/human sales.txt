@@ -191,7 +191,7 @@ shipyard "Syndicate Basics"
 	"Vagrant"
 	
 shipyard "Syndicate Advanced"
-	"Ftek Hornet"
+	"FTek Hornet"
 	"FTek Girl Scout"
 	"Phoenix"
 
@@ -205,7 +205,6 @@ shipyard "Southbound Advanced"
 	"Therum"
 	
 shipyard "Syndicate Advanced"
-	"Nemesis Carrier"
 	"Gnosis Transport"
 
 shipyard "Northern Pirates"
@@ -414,6 +413,6 @@ outfitter "Tyil Advanced"
 	
 outfitter "Ammo North"
 	"EMP Bomb"
-    
+	
 outfitter "SellingAndBuying"
 	"Local Map"

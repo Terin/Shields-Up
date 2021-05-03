@@ -327,7 +327,7 @@ fleet "pirate raid"
 	variant 1
 		"Wren B" 3
 	variant 1
-		"Wren C" 3"
+		"Wren C" 3
 
 
 fleet "Small Southern Pirates"

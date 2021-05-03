@@ -87,7 +87,7 @@ outfit "Toaster Bot"
 
 outfit "Rock Wall"
 	category "Hand to Hand"
-	thumbnail "small rock/spin-00"
+	#thumbnail "asteroid/small rock/spin-00"
 	"capture defense" 9001
 	unplunderable 1
 	description "It's a rock wall that prevents people from breaking in. Amazing. (For use in ships that are not intended to be accessed by player.)"

@@ -32,7 +32,7 @@ mission "Hai Absconded: First Contact"
 			`	"I assume that you are meaning to ask what the Absconded are here for."`
 			
 			label absconded
-			`	"We are here because we do not agree with those Hai of the Unfettered or of the Quarg. My ancestors decided to leave the rest of the Hai, taking with them the few Jump Drives that the Hai had after the war and colonizing these worlds here. For this, they call us `Absconded.`"`
+			`	"We are here because we do not agree with those Hai of the Unfettered or of the Quarg. My ancestors decided to leave the rest of the Hai, taking with them the few Jump Drives that the Hai had after the war and colonizing these worlds here. For this, they call us 'Absconded.'"`
 			choice
 				`	"What war are you talking about?"`
 					goto war

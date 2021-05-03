@@ -14,8 +14,8 @@ mission "SU War Start"
 	description "You came across a man who has information on a leaked stache of Rare Federation Weapons, "
 	blocked "You need passenger space of at least one to accept this mission."
 	passengers 1
-	source 
-		governnment Republic Syndicate "Free Worlds"
+	source
+		government Republic Syndicate "Free Worlds"
 	destination "Icefall"
 	to offer
 		has "event: SU War Start"

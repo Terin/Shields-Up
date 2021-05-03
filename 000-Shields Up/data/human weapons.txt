@@ -45,6 +45,7 @@ outfit "FTek Active Blaster Turret"
 		sound "mod blaster"
 		"hit effect" "blaster impact"
 		"inaccuracy" 8
+		"turret turn" 3
 		"velocity" 8
 		"lifetime" 50
 		"reload" 3
@@ -92,6 +93,7 @@ outfit "FTek Heavy Blaster Turret"
 		sound "pulse"
 		"hit effect" "blaster impact"
 		"inaccuracy" 2
+		"turret turn" 3
 		"velocity" 9
 		"lifetime" 60
 		"reload" 9
@@ -123,7 +125,7 @@ outfit "FTek Homing Blaster"
 		"reload" 40
 		"turn" 2
 		"homing" 3
-		"tracking" .7
+		"radar tracking" .7
 		"acceleration" 0.8
 		"drag" 0.1
 		"firing energy" 110
@@ -136,7 +138,7 @@ outfit "FTek Homing Blaster"
 outfit "Turbo Laser Turret"
 	category "Turrets"
 	cost 660000
-	thumbnail "outfit/turbolaser turret"
+	#thumbnail "outfit/turbolaser turret"
 	"mass" 24
 	"outfit space" -24
 	"weapon capacity" -24
@@ -148,6 +150,7 @@ outfit "Turbo Laser Turret"
 		sound "turbolaser"
 		"hit effect" "green impact"
 		"inaccuracy" 1
+		"turret turn" 3
 		"velocity" 18
 		"lifetime" 60
 		"reload" 40
@@ -160,7 +163,7 @@ outfit "Turbo Laser Turret"
 outfit "Light Turbo Laser Turret"
 	category "Turrets"
 	cost 375000
-	thumbnail "outfit/turbolaser turret"
+	#thumbnail "outfit/turbolaser turret"
 	"mass" 17
 	"outfit space" -17
 	"weapon capacity" -17
@@ -172,6 +175,7 @@ outfit "Light Turbo Laser Turret"
 		sound "turbolaser"
 		"hit effect" "blue impact"
 		"inaccuracy" 1
+		"turret turn" 3
 		"velocity" 14
 		"lifetime" 55
 		"reload" 20
@@ -263,6 +267,7 @@ outfit "Soaker Missile Launcher"
 		"drag" .1
 		"turn" 2
 		"homing" 4
+		"infrared tracking" .7
 		"missile strength" 300
 	description "Soakers are special 'missiles' designed to take damage so other missiles can get through. One launcher carries 10 Soaker Missile."
 	
@@ -278,6 +283,7 @@ outfit "Soaker Shield"
 		"drag" .4
 		"turn" 3
 		"homing" 4
+		"infrared tracking" .7
 		"shield damage" 0
 		"hull damage" 0
 		"hit force" 0
@@ -350,9 +356,9 @@ outfit "Grenade"  #Thanks, Michael Feather!
 
 outfit "Anti-Ship Battery"
 	plural "Anti-Ship Batteries"
-    category "Secondary Weapons"
-    cost 2000000
-    thumbnail "outfit/asb"
+	category "Secondary Weapons"
+	cost 2000000
+	thumbnail "outfit/asb"
 	"mass" 44
 	"outfit space" -80
 	"weapon capacity" -80
@@ -360,12 +366,13 @@ outfit "Anti-Ship Battery"
 	"shell capacity" 36
 	weapon
 		icon "icon/tbd"
-		sprite "projectile/asbc"
+		sprite "projectile/asb"
 			"frame rate" 10
 		sound "ion impact"
 		"fire effect" "small explosion"
 		"hit effect" "asb explosion"
 		"inaccuracy" 10
+		"turret turn" 4
 		"velocity" 25
 		"lifetime" 15
 		"reload" 150
@@ -379,12 +386,12 @@ outfit "Anti-Ship Battery"
 		"hull damage" 2200
 		"hit force" 500
 		ammo "1 Ton Shell"
-    description "This an anti-capital destroyer. It barrages large warships with repeated volleys of high-power shells, but since that is its main purpose, it very easily misses small ships and strains your cooling systems."
+	description "This is an anti-capital destroyer. It barrages large warships with repeated volleys of high-power shells, but since that is its main purpose, it very easily misses small ships and strains your cooling systems."
 	
 outfit "1 Ton Shell"
 	category "Ammunition"
 	cost 1000
-	thumbnail "outfit/1ton"
+	#thumbnail "outfit/1ton"
 	"shell capacity" -1
 	mass 1
 	description "This crude anti-ship shell has been in production for centuries."
@@ -507,5 +514,13 @@ outfit "pulse final"
 			"frame rate" .1
 		sound "ion impact"
 		"submunition" "ion pulse" 65
+		"inaccuracy" 0.1
+		"lifetime" 18
+
+outfit "ion pulse"
+	weapon
+		sprite "projectile/asb"
+			"frame rate" .1
+		sound "ion impact"
 		"inaccuracy" 0.1
 		"lifetime" 18

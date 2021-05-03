@@ -105,14 +105,19 @@ phrase "plenipotent"
 phrase "unknown drones"
 	word
 		"DR-"
-	phrase "digit"
-	phrase "digit"
-	phrase "digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
 		
 phrase "sentar"
 	word
 		"Sentarian Unit "
-	phrase "digit"
-	phrase "digit"
-	phrase "digit"
-	
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"

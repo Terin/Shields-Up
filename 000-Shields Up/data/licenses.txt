@@ -9,7 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 mission "Deep Sky Grants License"
-        landing
+		landing
 	autosave
 	to offer
 		has "event: deep sky tech available"
@@ -20,7 +20,7 @@ mission "Deep Sky Grants License"
 			`The Deep Sky has granted you access to their best ship, the Bactrian.`
 				decline
 
-event "DS licence"
+event "DS license"
 	shipyard "Lionheart Advanced"
 		"Legionaire"
 
